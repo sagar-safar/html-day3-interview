@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--1. write html code to create a 2*2 table: Table name should be name and salary, and provide two entries for this-->
+
+    <table border="1">
+        <thead>
+            <th>name</th>
+            <th>salary</th>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>sagar</td>
+                <td>50K</td>
+            </tr>
+            <tr>
+                <td>prince</td>
+                <td>200k</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!--2. create a form contain input fields like nane , age, email, and contact.-->
+    <form action="">
+        <label for="name">Name :</label>
+        <input type="text" id="name" placeholder="enter name" required>
+        <br>
+        <label for="age">Age : </label>
+        <input type="number" id="age" placeholder="enter age" required>
+        <br>
+        <label for="email">Email : </label>
+        <input type="email" id="email" placeholder="enter email" required>
+        <br>
+        <label for="contact">Contact : </label>
+        <input type="tel" placeholder="enter phone no." required>
+    
+    </form>
+
+    <!--3. create a table and explain how to achieve colspan.-->
+
+    <table border="1">
+        <thead>
+            <th>name</th>
+            <th colspan="2">address</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>sagar</td>
+                <td>bihar</td>
+                <td>patna</td>
+            </tr>
+            <tr>
+                <td>rohit</td>
+                <td>uttarpradesh</td>
+                <td>lucknow</td>
+            </tr>
+            <tr>
+                <td>prince</td>
+                <td>goa</td>
+                <td>panji</td>
+            </tr>
+        </tbody>
+
+    </table>
+
+    <!--4. create radio button(MERN, MEAN:course) and checkbox(HTML, CSS,REACT, Node:technology) and explain the difference between these two. -->
+    <form action="">
+        <input type="radio" id="mern" name="course" value="MERN">
+        <label for="mern">MERN</label>
+        <br>
+        <input type="radio" name="course" id="mean" value="MEAN">
+        <label for="mean">MEAN</label>
+        <br>
+    
+        <input type="checkbox"  id="html" value="HTML">
+        <label for="html">HTML</label>
+        <br>
+        <input type="checkbox" id="css" value="CSS">
+        <label for="css">CSS</label>
+        <br>
+        <input type="checkbox"  id="react" value="REACT">
+        <label for="react">React</label>
+    </form>
+
+    <!--
+    radio-btn : 
+
+     a. radio buttons must have the same name attribute value.
+     b. radio buttons are normally present in group.
+     c. we can select only one radio button at the same time.
+
+
+
+    checkbox : 
+     a. checkbox must have not the same name attribite value.
+     b. checkbox may not present in the group.
+     c. we can select one or more checkboxes at the same time.
+    -->
+
+
+    
+</body>
+</html>
+
+
+
+
+
+
